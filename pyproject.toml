@@ -6,7 +6,7 @@ authors = ["tools1x <tools@1xpartner.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 gspread-dataframe = "^4.0.0"
 
 
