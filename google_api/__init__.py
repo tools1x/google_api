@@ -18,3 +18,7 @@ AUTH_USER = {
 
 def get_client():
     return gspread.oauth_from_dict(credentials=OAUTH, authorized_user_info=AUTH_USER)[0]
+
+
+def get_service():
+    return None
